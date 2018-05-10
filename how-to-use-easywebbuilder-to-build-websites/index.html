@@ -1,1 +1,324 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><title>EasyWeb, fast and flexible framework for building websites</title><base href="/"><meta name="viewport" content="width=device-width,initial-scale=1"><link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/><link href="css/socicon.css" rel="stylesheet" type="text/css" media="all"/><link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all"/><link href="css/interface-icons.css" rel="stylesheet" type="text/css" media="all"/><link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all"/><link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all"/><link href="css/theme.css" rel="stylesheet" type="text/css" media="all"/><link href="css/custom.css" rel="stylesheet" type="text/css" media="all"/><link href="https://fonts.googleapis.com/css?family=Lora:400,400italic,700%7CMontserrat:400,700" rel="stylesheet" type="text/css"><link href="vendors/videojs/video-js.min.css" rel="stylesheet"><link href="css/app.min.css" rel="stylesheet"><link href="css/custom-docs.css" rel="stylesheet"></head><body class="scroll-assist" data-reveal-selectors="section:not(.masonry):not(:first-of-type):not(.parallax)" data-reveal-timing="1000"><a id="top"></a><div class="loader"></div><nav class="transition--fade transition--active" style="min-height: 119px"><div class="nav-bar" data-fixed-at="200"><div class="nav-module logo-module left"><a href="/"><img class="logo logo-dark" alt="logo" src="/img/logo-dark.png"/> <img class="logo logo-light" alt="logo" src="/img/logo-light.png"/></a></div><div class="nav-module menu-module left"><ul class="menu"><li><a href="./">Home</a></li><li><a href="./aboutus">About Us</a></li><li><a href="./document">Documents</a></li></ul></div><div class="nav-module right"><a href="home" class="nav-function"><i class="interface-bag icon icon--sm"></i> <span>Cart</span></a></div><div class="nav-module right"><a href="#" class="nav-function modal-trigger" data-modal-id="search-form"><i class="interface-search icon icon--sm"></i> <span>Search</span></a></div></div><div class="nav-mobile-toggle visible-sm visible-xs"><i class="icon-Align-Right icon icon--sm"></i></div></nav><div class="modal-container search-modal" data-modal-id="search-form"><div class="modal-content bg-white imagebg" data-width="100%" data-height="100%"><div class="pos-vertical-center clearfix"><div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center"><form class="clearfix"><div class="input-with-icon"><i class="icon-Magnifi-Glass2 icon icon--sm"></i> <input type="search" name="query" placeholder="Type your search and hit enter"/></div></form></div></div></div></div><div class="main-container transition--fade transition--active"><section class="blog-post"><div class="blog-post__title bg--secondary"><div class="container"><div class="row"><div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center"><h2>How to use EasyWebBuilder to build websites</h2><h5></h5><div class="blog-post__author"><span><em>by </em></span><span class="h6">EasyWeb Admin</span></div></div></div></div></div><div class="container"><div class="row"><div class="col-sm-10 col-sm-offset-1"><img class="blog-post__hero box-shadow" alt="pic" src="https://github.com/easywebhub/easyapp/blob/master/documents/EasyWebBuilder/preview-on-local.png?raw&#x3D;true"></div><div class="col-sm-8 col-sm-offset-2"><p><strong>EasyWebBuilder is a software of easywebhub.com to build, manage and deploy websites with only HTML, CSS basic knowledge.</strong></p><h5 id="setup-and-run-application-">Setup and run application:</h5><ul><li>Download file from <a href="https://github.com/easywebhub/easyapp/releases/download/2.2/EasyWebBuilder.zip">here</a></li><li>Unzip and click <code>EasyBuilder.exe</code> to run</li></ul><h4 id="list-of-features">List of features</h4><ol><li><p>Create new website</p><ul><li>Click “Create new site”, choose “Standard” and fill the name of your site <img src="https://github.com/easywebhub/easyapp/blob/master/documents/EasyWebBuilder/create-website.png?raw=true" alt="create-new-site"></li></ul></li><li><p>Preview website on local</p><ul><li>Click “Build” button to start the website to preview on local</li><li>Using external browser by click “On Browser” <img src="https://github.com/easywebhub/easyapp/blob/master/documents/EasyWebBuilder/preview-on-local.png?raw=true" alt="preview on local"></li></ul></li></ol><ul><li>Edit data in Content Form, then view the change on website<ul><li>Select <code>index</code> Content which defines the home page of website</li><li>Change text of <code>header</code> property, and see the change on browser <img src="https://github.com/easywebhub/easyapp/blob/master/documents/EasyWebBuilder/edit-content.png?raw=true" alt="edit content"></li></ul></li><li><p>Data binding between Content and Layout</p><ul><li>Click “Layout” button and see the data binding using <code>{{ }}</code> syntax.</li></ul><p><img src="https://github.com/easywebhub/easyapp/blob/master/documents/EasyWebBuilder/content-layout-binding.png?raw=true" alt="binding data"></p><ul><li>EasyWeb using <a href="http://handlebarsjs.com/">HandlebarJS</a> framework to binding data between Content and layout.</li><li>We could fill data directly to layout and see the change on website <img src="https://github.com/easywebhub/easyapp/blob/master/documents/EasyWebBuilder/edit-layout-data.png?raw=true" alt="edit layout"></li><li>Click <a href="coming soon">here</a> for more detail about data binding (coming soon).</li></ul></li><li><p>Add a page (using same layout) and view the created page</p><ul><li>Click <code>Add Content</code> to create new page <code>home-page</code> using the layout of home page of website</li><li>Change data for some properties in Content Form, e.g <code>header, description</code></li><li>Preview new page on local by adding slug to domain, e.g <code>http://localhost:3000/home-page/</code> <img src="https://github.com/easywebhub/easyapp/blob/master/documents/EasyWebBuilder/create-page-home.png?raw=true" alt="create page"></li></ul></li><li><p>Customize text on Content Form in Config</p><ul><li>select “index” content, click Config tab</li><li>choose “description” to customize, change <code>Display name</code> and type <code>LongText</code> of input text</li><li>see customization on Content Form <img src="https://github.com/easywebhub/easyapp/blob/master/documents/EasyWebBuilder/edit-config.png?raw=true" alt="config"></li></ul></li><li><p>Edit html code in layout and view the change</p><ul><li>change background image in Layout from <code>bg1.jpg</code> thành <code>bg2.jpg</code>, click <code>Save</code> and see on browser <img src="https://github.com/easywebhub/easyapp/blob/master/documents/EasyWebBuilder/change-background-layout.png?raw=true" alt="change background"></li></ul></li></ul><ul><li><p>Add a new Layout and a page used that layout, view created page</p></li><li><p>Init with github account</p><ul><li>create a new repository on <a href="https://github.com">GitHub</a> or choose empty repository with write permission</li><li>Click “Init” on EasyWebBuilder and fill github account</li></ul><p><img src="https://github.com/easywebhub/easyapp/blob/master/documents/EasyWebBuilder/init-github-repo.png?raw=true" alt="github deploy"></p><ul><li><strong>Must “Refresh” the build to continue PreView on local or Sync, Deploy to server</strong> <img src="https://github.com/easywebhub/easyapp/blob/master/documents/EasyWebBuilder/refresh-build.png?raw=true" alt="refresh"></li></ul></li><li><p>Sync on cloud by click <code>Sync</code> button</p></li><li>Deploy and view production website<ul><li>Click <code>Deploy</code> button</li><li>After the deployment is completed, see url of github page. This url is your website <img src="https://github.com/easywebhub/easyapp/blob/master/documents/EasyWebBuilder/deploy-github-page.png?raw=true" alt="github deploy"></li></ul></li><li><strong>GitHub take a while to deploy or update content website, so please wait</strong></li><li><strong>Please use your domain or subdomain for production website</strong> following github <a href="https://help.github.com/articles/using-a-custom-domain-with-github-pages/">tutorials</a></li></ul><p><strong>Github provide subfolder for your website and it make something display on website terrible. So just use <code>github.io</code> page for <code>quick deployment</code> and use your sub domain as soon as posible.</strong></p><ul><li>Please do some steps to make your website work with github.io url<ul><li>make sure relative url of <code>css, js, images,...</code> have no <code>/</code> at begining e.g <code>href=&quot;css/bootstrap.min.css&quot;</code></li><li>change <code>github-url</code> property to website <code>github.io</code> Url, e.g <code>`xxx.github.io/repo-name/</code></li><li><code>Rebuild</code> on local (Refresh button) and <code>Deploy</code> again on github <img src="https://github.com/easywebhub/easyapp/blob/master/documents/EasyWebBuilder/github-base-config.png?raw=true" alt="base config"></li></ul></li></ul></div></div></div></section><footer class="bg--dark footer-4"><div class="container"><div class="row"><div class="col-md-3 col-sm-4"><img alt="logo" class="logo" src="/img/logo-light.png"/><p><em>EasyWebHub Team, VinaAS Ltd.,Co</em></p><ul class="footer__navigation"><li><a href="">Home</a></li><li><a href="aboutus">About Us</a></li><li><a href="document">Documents</a></li></ul></div><div class="col-md-4 col-sm-8"><h6>Recents New</h6><div class="tweets-feed"><div class="tweets-feed" data-widget-id="492085717044981760" data-amount="2"></div></div></div><div class="col-md-4 col-md-offset-1 col-sm-12"><h6>Subscribe</h6><p>Get monthly updates and free resources.</p><form class="form--merge form--no-labels" method="post" id="subForm" data-error="Please fill all fields correctly." data-success="Thanks for signing up! Please check your inbox for confirmation email."><p><label for="fieldEmail">Email Address</label><br/><input class="col-md-8 col-sm-6 validate-required validate-email" id="fieldEmail" name="cm-kieth-kieth" type="email" required/></p><p><button type="submit">Go</button></p></form></div></div></div><div class="footer__lower"><div class="container"><div class="row"><div class="col-sm-6 text-center-xs"><span class="type--fine-print">&copy; Copyright <span class="update-year">2016</span> EasyWebHub - All Rights Reserved</span></div><div class="col-sm-6 text-right text-center-xs"><a href="#top" class="inner-link top-link"><i class="interface-up-open-big"></i></a></div></div></div></div></footer></div><script src="js/jquery-2.1.4.min.js"></script><script src="js/isotope.min.js"></script><script src="js/ytplayer.min.js"></script><script src="js/owl.carousel.min.js"></script><script src="js/lightbox.min.js"></script><script src="js/twitterfetcher.min.js"></script><script src="js/smooth-scroll.min.js"></script><script src="js/scrollreveal.min.js"></script><script src="js/parallax.js"></script><script src="js/scripts.js"></script></body></html>
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>EasyWeb, fast and flexible framework for building websites</title>
+        <base href="/">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+
+        <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/interface-icons.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+        <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700%7CMontserrat:400,700' rel='stylesheet' type='text/css'>
+     	  <!-- Styles -->
+    <link href="vendors/videojs/video-js.min.css" rel="stylesheet">
+    <link href="css/app.min.css" rel="stylesheet">
+    <link href="css/custom-docs.css" rel="stylesheet">
+    </head>
+
+    <body class="scroll-assist" data-reveal-selectors="section:not(.masonry):not(:first-of-type):not(.parallax)" data-reveal-timing="1000">
+        <a id="top"></a>
+
+    <div class="loader"></div>
+    <nav class="transition--fade transition--active" style="min-height: 119px;">
+          <div class="nav-bar" data-fixed-at="200">
+                    <div class="nav-module logo-module left">
+                        <a href="/">
+                          <img class="logo logo-dark" alt="logo" src="/img/logo-dark.png" />
+                          <img class="logo logo-light" alt="logo" src="/img/logo-light.png" />
+                        </a>
+                    </div>
+                    <div class="nav-module menu-module left">
+                      <ul class="menu">
+                          <li>
+                              <a href="./">
+                                  Home
+                              </a>
+    
+                          </li>
+                          <li>
+                              <a href="./aboutus">
+                                  About Us
+                              </a>
+    
+                          </li>
+                          <li>
+                              <a href="./document">
+                                  Documents
+                              </a>
+    
+                          </li>
+    
+                      </ul>
+                    </div>
+                    <!--end nav module-->
+                    <div class="nav-module right">
+                        <a href="home" class="nav-function">
+                           <i class="interface-bag icon icon--sm"></i>
+                            <span>Cart</span>
+                        </a>
+                    </div>
+                    <div class="nav-module right">
+                        <a href="#" class="nav-function modal-trigger" data-modal-id="search-form">
+                            <i class="interface-search icon icon--sm"></i>
+                            <span>Search</span>
+                        </a>
+                    </div>
+                </div>
+                <!--end nav bar-->
+                <div class="nav-mobile-toggle visible-sm visible-xs">
+                    <i class="icon-Align-Right icon icon--sm"></i>
+                </div>
+            </nav>
+
+        <div class="modal-container search-modal" data-modal-id="search-form">
+            <div class="modal-content bg-white imagebg" data-width="100%" data-height="100%">
+                <div class="pos-vertical-center clearfix">
+                    <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center">
+                        <form class="clearfix">
+                            <div class="input-with-icon">
+                                <i class="icon-Magnifi-Glass2 icon icon--sm"></i>
+                                <input type="search" name="query" placeholder="Type your search and hit enter" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!--end of modal-content-->
+        </div>
+        <!--end of modal-container-->
+
+
+
+  <div class="main-container transition--fade transition--active">
+            <section class="blog-post">
+                <div class="blog-post__title bg--secondary">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+                                <h2>How to use EasyWebBuilder to build websites</h2>
+                                <h5></h5>
+                                <div class="blog-post__author">
+                                    <span>
+                                        <em>by </em>
+                                    </span>
+                                    <span class="h6"> EasyWeb Admin</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end of row-->
+                    </div>
+                    <!--end of container-->
+                </div>
+                <div class="container">
+                    <div class="row">
+                      <div class="col-sm-10 col-sm-offset-1">
+                          <img class="blog-post__hero box-shadow" alt="pic" src="https://github.com/easywebhub/easyapp/blob/master/documents/EasyWebBuilder/preview-on-local.png?raw&#x3D;true">
+                      </div>
+                      <div class="col-sm-8 col-sm-offset-2">
+                      <p><strong>EasyWebBuilder is a software of easywebhub.com to build, manage and deploy websites with only HTML, CSS basic knowledge.</strong></p>
+<h5 id="setup-and-run-application-">Setup and run application:</h5>
+<ul>
+<li>Download file from <a href="https://github.com/easywebhub/easyapp/releases/download/2.2/EasyWebBuilder.zip">here</a></li>
+<li>Unzip and click <code>EasyBuilder.exe</code> to run</li>
+</ul>
+<h4 id="list-of-features">List of features</h4>
+<ol>
+<li><p>Create new website</p>
+<ul>
+<li>Click “Create new site”, choose “Standard” and fill the name of your site
+<img src="https://github.com/easywebhub/easyapp/blob/master/documents/EasyWebBuilder/create-website.png?raw=true" alt="create-new-site"></li>
+</ul>
+</li>
+<li><p>Preview website on local</p>
+<ul>
+<li>Click “Build” button to start the website to preview on local</li>
+<li>Using external browser by click “On Browser”
+<img src="https://github.com/easywebhub/easyapp/blob/master/documents/EasyWebBuilder/preview-on-local.png?raw=true" alt="preview on local"></li>
+</ul>
+</li>
+</ol>
+<ul>
+<li>Edit data in Content Form, then view the change on website<ul>
+<li>Select <code>index</code> Content which defines the home page of website</li>
+<li>Change text of <code>header</code> property, and see the change on browser
+<img src="https://github.com/easywebhub/easyapp/blob/master/documents/EasyWebBuilder/edit-content.png?raw=true" alt="edit content"></li>
+</ul>
+</li>
+<li><p>Data binding between Content and Layout</p>
+<ul>
+<li>Click “Layout” button and see the data binding using <code>{{ }}</code> syntax.</li>
+</ul>
+<p><img src="https://github.com/easywebhub/easyapp/blob/master/documents/EasyWebBuilder/content-layout-binding.png?raw=true" alt="binding data"></p>
+<ul>
+<li>EasyWeb using <a href="http://handlebarsjs.com/">HandlebarJS</a> framework to binding data between Content and layout. </li>
+<li>We could fill data directly to layout and see the change on website
+<img src="https://github.com/easywebhub/easyapp/blob/master/documents/EasyWebBuilder/edit-layout-data.png?raw=true" alt="edit layout"></li>
+<li>Click <a href="coming soon">here</a> for more detail about data binding (coming soon).</li>
+</ul>
+</li>
+<li><p>Add a page (using same layout) and view the created page</p>
+<ul>
+<li>Click <code>Add Content</code> to create new page <code>home-page</code> using the layout of home page of website</li>
+<li>Change data for some properties in Content Form, e.g <code>header, description</code></li>
+<li>Preview new page on local by adding slug to domain, e.g 
+<code>http://localhost:3000/home-page/</code>
+<img src="https://github.com/easywebhub/easyapp/blob/master/documents/EasyWebBuilder/create-page-home.png?raw=true" alt="create page"></li>
+</ul>
+</li>
+<li><p>Customize text on Content Form in Config</p>
+<ul>
+<li>select “index” content, click Config tab</li>
+<li>choose “description” to customize, change <code>Display name</code> and type <code>LongText</code> of input text</li>
+<li>see customization on Content Form
+<img src="https://github.com/easywebhub/easyapp/blob/master/documents/EasyWebBuilder/edit-config.png?raw=true" alt="config"></li>
+</ul>
+</li>
+<li><p>Edit html code in layout and view the change</p>
+<ul>
+<li>change background image in Layout from <code>bg1.jpg</code> thành <code>bg2.jpg</code>, click <code>Save</code> and see on browser
+<img src="https://github.com/easywebhub/easyapp/blob/master/documents/EasyWebBuilder/change-background-layout.png?raw=true" alt="change background"></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>Add a new Layout and a page used that layout, view created page</p>
+</li>
+<li><p>Init with github account</p>
+<ul>
+<li>create a new repository on <a href="https://github.com">GitHub</a> or choose empty repository with write permission</li>
+<li>Click “Init” on EasyWebBuilder and fill github account</li>
+</ul>
+<p><img src="https://github.com/easywebhub/easyapp/blob/master/documents/EasyWebBuilder/init-github-repo.png?raw=true" alt="github deploy"></p>
+<ul>
+<li><strong>Must “Refresh” the build to continue PreView on local or Sync, Deploy to server</strong>
+<img src="https://github.com/easywebhub/easyapp/blob/master/documents/EasyWebBuilder/refresh-build.png?raw=true" alt="refresh"></li>
+</ul>
+</li>
+<li><p>Sync on cloud by click <code>Sync</code> button</p>
+</li>
+<li>Deploy and view production website<ul>
+<li>Click <code>Deploy</code> button</li>
+<li>After the deployment is completed, see url of github page. This url is your website
+<img src="https://github.com/easywebhub/easyapp/blob/master/documents/EasyWebBuilder/deploy-github-page.png?raw=true" alt="github deploy"></li>
+</ul>
+</li>
+<li><strong>GitHub take a while to deploy or update content website, so please wait</strong></li>
+<li><strong>Please use your domain or subdomain for production website</strong>  following github <a href="https://help.github.com/articles/using-a-custom-domain-with-github-pages/">tutorials</a></li>
+</ul>
+<p><strong>Github provide subfolder for your website and it make something display on website terrible. So just use <code>github.io</code> page for <code>quick deployment</code> and use your sub domain as soon as posible.</strong></p>
+<ul>
+<li>Please do some steps to make your website work with github.io url<ul>
+<li>make sure relative url of <code>css, js, images,...</code> have no <code>/</code> at begining
+e.g <code>href=&quot;css/bootstrap.min.css&quot;</code></li>
+<li>change <code>github-url</code> property to website <code>github.io</code> Url, e.g <code>`xxx.github.io/repo-name/</code></li>
+<li><code>Rebuild</code> on local (Refresh button) and <code>Deploy</code> again on github
+<img src="https://github.com/easywebhub/easyapp/blob/master/documents/EasyWebBuilder/github-base-config.png?raw=true" alt="base config"></li>
+</ul>
+</li>
+</ul>
+
+                      </div>
+                    </div>
+                </div>
+                <!--end of container-->
+            </section>
+
+
+    <footer class="bg--dark footer-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-4">
+                    <img alt="logo" class="logo" src="/img/logo-light.png" />
+                    <p>
+                        <em>EasyWebHub Team, VinaAS Ltd.,Co</em>
+                    </p>
+                    <ul class="footer__navigation">
+                        <li>
+                            <a href="">
+                                    Home
+                                </a>
+                        </li>
+                        <li>
+                            <a href="aboutus">
+                                    About Us
+                                </a>
+                        </li>
+                        <li>
+                            <a href="document">
+                                    Documents
+                                </a>
+                        </li>
+                    </ul>
+                </div>
+    
+               <div class="col-md-4 col-sm-8">
+        <h6>Recents New</h6>
+        <div class="tweets-feed">
+            <div class="tweets-feed" data-widget-id="492085717044981760" data-amount="2"></div>
+        </div>
+    </div>
+    
+    
+               <div class="col-md-4 col-md-offset-1 col-sm-12">
+        <h6>Subscribe</h6>
+        <p>
+            Get monthly updates and free resources.
+        </p>
+        <form class="form--merge form--no-labels" method="post" id="subForm" data-error="Please fill all fields correctly." data-success="Thanks for signing up! Please check your inbox for confirmation email.">
+            <p>
+                <label for="fieldEmail">Email Address</label>
+                <br />
+                <input class="col-md-8 col-sm-6 validate-required validate-email" id="fieldEmail" name="cm-kieth-kieth" type="email" required />
+            </p>
+            <p>
+                <button type="submit">Go</button>
+            </p>
+        </form>
+    </div>
+    
+    
+    
+            </div>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
+      <div class="footer__lower">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 text-center-xs">
+                    <span class="type--fine-print">&copy; Copyright
+                                            <span class="update-year">2016</span> EasyWebHub - All Rights Reserved</span>
+                </div>
+                <div class="col-sm-6 text-right text-center-xs">
+                    <a href="#top" class="inner-link top-link">
+                        <i class="interface-up-open-big"></i>
+                    </a>
+                </div>
+            </div>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
+    
+    </footer>
+    </div>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/ytplayer.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/twitterfetcher.min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/scripts.js"></script>
+    
+    </body>
+    
+    </html>

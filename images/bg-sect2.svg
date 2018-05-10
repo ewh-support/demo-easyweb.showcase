@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 330 960" style="enable-background:new 0 0 330 960;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:url(#XMLID_5_);}
+</style>
+<polygon id="XMLID_1_" class="st0" points="74.3,960.5 0,960.5 0,0 292.3,0 "/>
+<linearGradient id="XMLID_5_" gradientUnits="userSpaceOnUse" x1="200.5" y1="0.5002" x2="200.5" y2="960.5001">
+	<stop  offset="0" style="stop-color:#D59630"/>
+	<stop  offset="0.3316" style="stop-color:#FAEA9F"/>
+	<stop  offset="1" style="stop-color:#D59630"/>
+</linearGradient>
+<path id="XMLID_2_" class="st1" d="M284,0.5h46l-251,960h-8L284,0.5z"/>
+</svg>
